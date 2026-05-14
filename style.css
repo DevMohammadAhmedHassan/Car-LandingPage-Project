@@ -6,12 +6,25 @@
     margin: 0px;
 }
 body{
-    padding: 0px 400px;
-
     background-color: azure;
+}
+
+header{
+    padding: 0px 400px;
+    background-image: url("images/car\ image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
 }
 
 .nav{
     display: flex;
-    justify-content: space-between;;
+    justify-content: space-between;
+    padding-top: 20px;
+    
+}
+
+footer{
+    padding: 20px 400px;
+    height: 5vh;
 }
