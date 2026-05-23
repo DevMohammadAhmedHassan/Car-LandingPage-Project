@@ -6,7 +6,7 @@
     margin: 0px;
 }
 body{
-    background-color: azure;
+    background-color: #007fa5;
 }
 
 .nav{
@@ -46,18 +46,37 @@ header{
     background-image: url("images/car\ image.jpg");
     background-size: cover;
     background-position: center;
-    height: 95vh;
+    height: 90vh;
 }
 
 .content{
-    margin-top:500px;
+    margin-top:480px;
     display:flex;
     flex-direction: column;
     align-items: last baseline;
     gap: 10px;
 }
+.content button{
+    font-size: 20px;
+}
 
 footer{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
     padding: 20px 400px;
     height: 5vh;
+    background-color: #007fa5;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.item h4{
+    color: white
+}
+.item p{
+    color: white;
 }
