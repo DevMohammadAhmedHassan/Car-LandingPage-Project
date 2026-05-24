@@ -80,3 +80,26 @@ footer{
 .item p{
     color: white;
 }
+
+@media all and (max-width: 500px){
+    header{
+        padding: 0px;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .nav button{
+        display: none;
+    }
+
+    .content{
+        margin-top: 200px;
+    }
+    footer{
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+}
